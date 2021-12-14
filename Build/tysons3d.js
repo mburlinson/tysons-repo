@@ -2,11 +2,11 @@
       var baseURL = "https://www.tysons3d-beta.com";
       var buildUrl = "https://mburlinson.github.io/tysons-repo/Build";
       var globalunityinstance = null;
-      var loaderUrl = buildUrl + "/urp42.loader.js";
+      var loaderUrl = buildUrl + "/urp43.loader.js";
       var config = {
-        dataUrl: buildUrl + "/urp42.data.unityweb",
-        frameworkUrl: buildUrl + "/urp42.framework.js.unityweb",
-        codeUrl: buildUrl + "/urp42.wasm.unityweb",
+        dataUrl: buildUrl + "/urp43.data.unityweb",
+        frameworkUrl: buildUrl + "/urp43.framework.js.unityweb",
+        codeUrl: buildUrl + "/urp43.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Tyson Corner Center",
