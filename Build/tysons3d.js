@@ -212,9 +212,6 @@
    function sendMessageToUnitydetail1() {
       globalunityinstance.SendMessage('bldg_f_1a','OnMouseDown');
    }
-   function sendMessageToUnitydetail1() {
-      globalunityinstance.SendMessage('bldg_f_1b','OnMouseDown');
-   }
    function sendMessageToUnitydetail2() {
       globalunityinstance.SendMessage('bldg_f_2','OnMouseDown');
    }
