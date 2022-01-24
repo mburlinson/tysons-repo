@@ -2,11 +2,11 @@
       var baseURL = "https://www.tysons3d-beta.com";
       var buildUrl = "https://mburlinson.github.io/tysons-repo/Build";
       var globalunityinstance = null;
-      var loaderUrl = buildUrl + "/urp51.loader.js";
+      var loaderUrl = buildUrl + "/urp53.loader.js";
       var config = {
-        dataUrl: buildUrl + "/urp51.data.unityweb",
-        frameworkUrl: buildUrl + "/urp51.framework.js.unityweb",
-        codeUrl: buildUrl + "/urp51.wasm.unityweb",
+        dataUrl: buildUrl + "/urp53.data.unityweb",
+        frameworkUrl: buildUrl + "/urp53.framework.js.unityweb",
+        codeUrl: buildUrl + "/urp53.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Tyson Corner Center",
@@ -245,6 +245,15 @@
           $("#phase-1-button")[0].click();
         }
         
+   }
+               function sendMessageToUnityView1() {
+      globalunityinstance.SendMessage('Bridge','View1');
+   }
+           function sendMessageToUnityView2() {
+      globalunityinstance.SendMessage('Bridge','View2');
+   }         
+            function sendMessageToUnityOrbit() {
+      globalunityinstance.SendMessage('Bridge','Orbit');
    }
 
 
