@@ -216,7 +216,7 @@
       globalunityinstance.SendMessage('bldg_f_2','OnMouseDown');
    }
    function sendMessageToUnitydetail3() {
-      globalunityinstance.SendMessage('bldg_f_3','OnMouseDown');
+      globalunityinstance.SendMessage('amc_future','OnMouseDown');
    }
    function sendMessageToUnitydetail4() {
       globalunityinstance.SendMessage('bldg_f_4','OnMouseDown');
