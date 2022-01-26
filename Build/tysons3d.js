@@ -347,7 +347,6 @@
         if (phase_11_on == true) {
           $("#phase-11-button")[0].click();
         }
-
         
    }
                function sendMessageToUnityView1() {
