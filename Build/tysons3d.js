@@ -167,6 +167,18 @@
 
 
    var phase_1_on = true;
+   var phase_2_on = false;
+   var phase_3_on = false;
+   var phase_4_on = false;
+   var phase_5_on = false;
+   var phase_6_on = false;
+   var phase_7_on = false;
+   var phase_8_on = false;
+   var phase_9_on = false;
+   var phase_10_on = false;
+   var phase_11_on = false;
+   
+
    function sendMessageToUnity0() {
       if (phase_1_on == false){
       	phase_1_on = true;
@@ -174,36 +186,97 @@
       else {
         phase_1_on = false;
       }
+
       globalunityinstance.SendMessage('Bridge','MainMenu0');
    }
    function sendMessageToUnity1() {
+      if (phase_2_on == false){
+         phase_2_on = true;
+      }
+      else {
+        phase_2_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu1');
    }
    function sendMessageToUnity2() {
+      if (phase_3_on == false){
+         phase_3_on = true;
+      }
+      else {
+        phase_3_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu2');
    }
    function sendMessageToUnity3() {
+      if (phase_4_on == false){
+         phase_4_on = true;
+      }
+      else {
+        phase_4_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu3');
    }
    function sendMessageToUnity4() {
+      if (phase_5_on == false){
+         phase_5_on = true;
+      }
+      else {
+        phase_5_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu4');
    }
    function sendMessageToUnity5() {
+      if (phase_6_on == false){
+         phase_6_on = true;
+      }
+      else {
+        phase_6_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu5');
    }
    function sendMessageToUnity6() {
+      if (phase_7_on == false){
+         phase_7_on = true;
+      }
+      else {
+        phase_7_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu6');
    }
    function sendMessageToUnity7() {
+      if (phase_8_on == false){
+         phase_8_on = true;
+      }
+      else {
+        phase_8_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu7');
    }
    function sendMessageToUnity8() {
+      if (phase_9_on == false){
+         phase_9_on = true;
+      }
+      else {
+        phase_9_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu8');
    }
    function sendMessageToUnity9() {
+      if (phase_10_on == false){
+         phase_10_on = true;
+      }
+      else {
+        phase_10_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu9');
    }
    function sendMessageToUnity10() {
+      if (phase_11_on == false){
+         phase_11_on = true;
+      }
+      else {
+        phase_11_on = false;
+      }
       globalunityinstance.SendMessage('Bridge','MainMenu10');
    }
    function sendMessageToUnitydetail0() {
@@ -244,6 +317,37 @@
         if (phase_1_on == true) {
           $("#phase-1-button")[0].click();
         }
+        if (phase_2_on == true) {
+          $("#phase-2-button")[0].click();
+        }
+        if (phase_3_on == true) {
+          $("#phase-3-button")[0].click();
+        }
+        if (phase_4_on == true) {
+          $("#phase-4-button")[0].click();
+        }
+        if (phase_5_on == true) {
+          $("#phase-5-button")[0].click();
+        }
+        if (phase_6_on == true) {
+          $("#phase-6-button")[0].click();
+        }
+        if (phase_7_on == true) {
+          $("#phase-7-button")[0].click();
+        }
+        if (phase_8_on == true) {
+          $("#phase-8-button")[0].click();
+        }
+        if (phase_9_on == true) {
+          $("#phase-9-button")[0].click();
+        }
+        if (phase_10_on == true) {
+          $("#phase-10-button")[0].click();
+        }
+        if (phase_11_on == true) {
+          $("#phase-11-button")[0].click();
+        }
+
         
    }
                function sendMessageToUnityView1() {
