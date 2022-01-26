@@ -166,7 +166,7 @@
 
 
 
-   var phase_1_on = false;
+   var phase_1_on = true;
    function sendMessageToUnity0() {
       if (phase_1_on == false){
       	phase_1_on = true;
@@ -300,7 +300,7 @@ $(document).ready(function(){
 
   
    
-   setTimeout(sendMessageToUnity0, 10000);
+   //setTimeout(sendMessageToUnity0, 10000);
       
 
 });
