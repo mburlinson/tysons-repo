@@ -300,7 +300,7 @@ $(document).ready(function(){
 
   
    
-   setTimeout(sendMessageToUnity0, 3000);
+   setTimeout(sendMessageToUnity0, 10000);
       
 
 });
