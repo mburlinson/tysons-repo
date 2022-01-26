@@ -297,4 +297,10 @@ function KillIframe(){
 
 $(document).ready(function(){
   $("#close-page").click(function(){ KillIframe(); });
+
+  
+   
+   setTimeout(sendMessageToUnity0, 3000);
+      
+
 });
