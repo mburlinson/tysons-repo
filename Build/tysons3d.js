@@ -349,24 +349,25 @@
         }
         
    }
-               function sendMessageToUnityView1() {
+             function sendMessageToUnityView1() {
       globalunityinstance.SendMessage('Bridge','View1');
    }
            function sendMessageToUnityView2() {
       globalunityinstance.SendMessage('Bridge','View2');
-   }  
-       function sendMessageToUnityView3() {
+   }      
+              function sendMessageToUnityView3() {
       globalunityinstance.SendMessage('Bridge','View3');
-   } 
-       function sendMessageToUnityView4() {
+   }    
+              function sendMessageToUnityView4() {
       globalunityinstance.SendMessage('Bridge','View4');
-   } 
-       function sendMessageToUnityView5() {
+   }    
+              function sendMessageToUnityView5() {
       globalunityinstance.SendMessage('Bridge','View5');
-   }        
+   }    
             function sendMessageToUnityOrbit() {
       globalunityinstance.SendMessage('Bridge','Orbit');
    }
+
 
 
 
