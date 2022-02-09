@@ -354,7 +354,16 @@
    }
            function sendMessageToUnityView2() {
       globalunityinstance.SendMessage('Bridge','View2');
-   }         
+   }  
+       function sendMessageToUnityView2() {
+      globalunityinstance.SendMessage('Bridge','View3');
+   } 
+       function sendMessageToUnityView2() {
+      globalunityinstance.SendMessage('Bridge','View4');
+   } 
+       function sendMessageToUnityView2() {
+      globalunityinstance.SendMessage('Bridge','View5');
+   }        
             function sendMessageToUnityOrbit() {
       globalunityinstance.SendMessage('Bridge','Orbit');
    }
