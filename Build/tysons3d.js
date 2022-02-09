@@ -355,13 +355,13 @@
            function sendMessageToUnityView2() {
       globalunityinstance.SendMessage('Bridge','View2');
    }  
-       function sendMessageToUnityView2() {
+       function sendMessageToUnityView3() {
       globalunityinstance.SendMessage('Bridge','View3');
    } 
-       function sendMessageToUnityView2() {
+       function sendMessageToUnityView4() {
       globalunityinstance.SendMessage('Bridge','View4');
    } 
-       function sendMessageToUnityView2() {
+       function sendMessageToUnityView5() {
       globalunityinstance.SendMessage('Bridge','View5');
    }        
             function sendMessageToUnityOrbit() {
