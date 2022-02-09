@@ -52,7 +52,7 @@
       };
       document.body.appendChild(script);
  
-    
+    //this section helps with the hover phase cards.
 
    function receiveMessageFromUnity(txt) {
      
@@ -135,6 +135,9 @@
         if (txt.trim() == "Detail2") {
           document.getElementById("iframe99").src= baseURL + "/phase/plaza-west";
         }
+        if (txt.trim() == "Detail2b") {
+          document.getElementById("iframe99").src= baseURL + "/phase/plaza-west-B";
+        }
         if (txt.trim() == "Detail3") {
           document.getElementById("iframe99").src= baseURL + "/phase/east-end";
         }
@@ -168,6 +171,7 @@
 
    var phase_1_on = true;
    var phase_2_on = false;
+   var phase_2b_on = false;
    var phase_3_on = false;
    var phase_4_on = false;
    var phase_5_on = false;
@@ -206,6 +210,15 @@
         phase_3_on = false;
       }
       globalunityinstance.SendMessage('Bridge','MainMenu2');
+   }
+   function sendMessageToUnity2b() {
+      if (phase_3b_on == false){
+         phase_3b_on = true;
+      }
+      else {
+        phase_3b_on = false;
+      }
+      globalunityinstance.SendMessage('Bridge','MainMenu2b');
    }
    function sendMessageToUnity3() {
       if (phase_4_on == false){
@@ -323,6 +336,9 @@
         if (phase_3_on == true) {
           $("#phase-3-button")[0].click();
         }
+        if (phase_3b_on == true) {
+          $("#phase-3b-button")[0].click();
+        }
         if (phase_4_on == true) {
           $("#phase-4-button")[0].click();
         }
@@ -380,6 +396,9 @@ function KillIframe(){
   }
   if ( $("#iframe99")[0].src.indexOf("plaza-west") > 0){
   	sendMessageToUnitydetail2();
+  }
+   if ( $("#iframe99")[0].src.indexOf("plaza-west-b") > 0){
+   sendMessageToUnitydetail2b();
   }
   if ( $("#iframe99")[0].src.indexOf("east-end") > 0){
   	sendMessageToUnitydetail3();
