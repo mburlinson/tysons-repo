@@ -212,11 +212,11 @@
       globalunityinstance.SendMessage('Bridge','MainMenu2');
    }
    function sendMessageToUnity2b() {
-      if (phase_3b_on == false){
-         phase_3b_on = true;
+      if (phase_2b_on == false){
+         phase_2b_on = true;
       }
       else {
-        phase_3b_on = false;
+        phase_2b_on = false;
       }
       globalunityinstance.SendMessage('Bridge','MainMenu2b');
    }
