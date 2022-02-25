@@ -136,7 +136,7 @@
           document.getElementById("iframe99").src= baseURL + "/phase/plaza-west";
         }
         if (txt.trim() == "Detail2b") {
-          document.getElementById("iframe99").src= baseURL + "/phase/plaza-west-B";
+          document.getElementById("iframe99").src= baseURL + "/phase/plaza-west-b";
         }
         if (txt.trim() == "Detail3") {
           document.getElementById("iframe99").src= baseURL + "/phase/east-end";
