@@ -348,7 +348,7 @@
         if (phase_3_on == true) {
           $("#phase-3-button")[0].click();
         }
-        if (phase_3b_on == true) {
+        if (phase_2b_on == true) {
           $("#phase-3b-button")[0].click();
         }
         if (phase_4_on == true) {
