@@ -338,7 +338,7 @@
       globalunityinstance.SendMessage('bldg_f_10','OnMouseDown');
    }
    function sendMessageToUnityCloseAll() {
-//      globalunityinstance.SendMessage('Bridge','CloseAll');
+////      globalunityinstance.SendMessage('Bridge','CloseAll');
         if (phase_1_on == true) {
           $("#phase-1-button")[0].click();
         }
