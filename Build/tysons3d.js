@@ -162,7 +162,7 @@
         if (txt.trim() == "Detail10") {
           document.getElementById("iframe99").src= baseURL + "/phase/fashion-blvd";
         }
-        if (txt.trim() == "View6") {
+        if (txt.trim() == "Overview") {
           document.getElementById("iframe99").src= baseURL + "/phase/overview";
         }
 
