@@ -52,7 +52,7 @@
       };
       document.body.appendChild(script);
  
-    //this section helps with the hover phase cards.
+    ///this section helps with the hover phase cards.
 
    function receiveMessageFromUnity(txt) {
      
