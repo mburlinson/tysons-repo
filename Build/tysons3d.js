@@ -384,10 +384,16 @@
         }
         
    }
-             function sendMessageToUnityView1() {
+              function sendMessageToUnitySubwayOff() {
+      globalunityinstance.SendMessage('Bridge','SubwayOff');
+   }
+              function sendMessageToUnityGoBack() {
+      globalunityinstance.SendMessage('Bridge','GoBack');
+   }
+              function sendMessageToUnityView1() {
       globalunityinstance.SendMessage('Bridge','View1');
    }
-           function sendMessageToUnityView2() {
+              function sendMessageToUnityView2() {
       globalunityinstance.SendMessage('Bridge','View2');
    }      
               function sendMessageToUnityView3() {
