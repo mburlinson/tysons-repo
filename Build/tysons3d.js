@@ -346,6 +346,7 @@
       globalunityinstance.SendMessage('bldg_f_10','OnMouseDown');
    }
    */
+   //
    function sendMessageToUnityCloseAll() {
 ////      globalunityinstance.SendMessage('Bridge','CloseAll');
         if (phase_1_on == true) {
