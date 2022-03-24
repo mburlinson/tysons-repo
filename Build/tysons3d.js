@@ -123,7 +123,7 @@
           $("#phasecard10hide")[0].click();   
        		}   
 					
-     if (txt.trim().indexOf("Detail") >= 0){
+     if ((txt.trim().indexOf("Detail") >= 0) || (txt.trim().indexOf("Overview") >= 0)  ){
       setTimeout(function(){
         $("#page-block").show();
         if (txt.trim() == "Detail0") {
