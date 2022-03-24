@@ -311,6 +311,7 @@
    function sendMessageToUnityGoBack() {
       globalunityinstance.SendMessage('Bridge','GoBack');
    }
+   /*
    function sendMessageToUnitydetail1() {
       globalunityinstance.SendMessage('bldg_f_1a','OnMouseDown');
    }
@@ -344,6 +345,7 @@
    function sendMessageToUnitydetail10() {
       globalunityinstance.SendMessage('bldg_f_10','OnMouseDown');
    }
+   */
    function sendMessageToUnityCloseAll() {
 ////      globalunityinstance.SendMessage('Bridge','CloseAll');
         if (phase_1_on == true) {
@@ -387,9 +389,6 @@
               function sendMessageToUnitySubwayOff() {
       globalunityinstance.SendMessage('Bridge','SubwayOff');
    }
-              function sendMessageToUnityGoBack() {
-      globalunityinstance.SendMessage('Bridge','GoBack');
-   }
               function sendMessageToUnityView1() {
       globalunityinstance.SendMessage('Bridge','View1');
    }
@@ -420,40 +419,40 @@ function KillIframe(){
   	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("terrace-d") > 0){
-  	sendMessageToUnitydetail1();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("plaza-west") > 0){
-  	sendMessageToUnitydetail2();
+  	sendMessageToUnityGoBack();
   }
    if ( $("#iframe99")[0].src.indexOf("plaza-west-b") > 0){
-   sendMessageToUnitydetail2b();
+   sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("east-end") > 0){
-  	sendMessageToUnitydetail3();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("terrace-c") > 0){
-  	sendMessageToUnitydetail4();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("j-block") > 0){
-  	sendMessageToUnitydetail5();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("leesburg-pike") > 0){
-  	sendMessageToUnitydetail6();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("lux-entry") > 0){
-  	sendMessageToUnitydetail7();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("terrace-a") > 0){
-  	sendMessageToUnitydetail8();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("pearl-parcel") > 0){
-  	sendMessageToUnitydetail9();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("fashion-blvd") > 0){
-  	sendMessageToUnitydetail10();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("overview") > 0){
-    sendMessageToUnityView6();
+    sendMessageToUnityGoBack();
   }
   $("#iframe99")[0].src ="";
 }
