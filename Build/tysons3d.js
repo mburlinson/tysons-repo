@@ -308,8 +308,8 @@
       }
       globalunityinstance.SendMessage('Bridge','MainMenu10');
    }
-   function sendMessageToUnitydetail0() {
-      globalunityinstance.SendMessage('PH1_office','OnMouseDown');
+   function sendMessageToUnityGoBack() {
+      globalunityinstance.SendMessage('Bridge','GoBack');
    }
    function sendMessageToUnitydetail1() {
       globalunityinstance.SendMessage('bldg_f_1a','OnMouseDown');
@@ -417,7 +417,7 @@
 
 function KillIframe(){
   if ( $("#iframe99")[0].src.indexOf("phase-1") > 0){
-  	sendMessageToUnitydetail0();
+  	sendMessageToUnityGoBack();
   }
   if ( $("#iframe99")[0].src.indexOf("terrace-d") > 0){
   	sendMessageToUnitydetail1();
