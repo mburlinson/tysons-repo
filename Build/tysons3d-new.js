@@ -1,5 +1,5 @@
 
-      var baseURL = "https://tysons-3d-new.webflow.io/";
+      var baseURL = "https://tysons-3d-mobile.webflow.io/";
       var buildUrl = "https://mburlinson.github.io/tysons-repo/Build";
       var globalunityinstance = null;
       var loaderUrl = buildUrl + "/tcore19.loader.js";
@@ -8,9 +8,9 @@
         frameworkUrl: buildUrl + "/tcore19.framework.js.unityweb",
         codeUrl: buildUrl + "/tcore19.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Tyson Corner Center",
-        productVersion: "1.1",
+        companyName: "IFMM",
+        productName: "Tyson_Core",
+        productVersion: "0.1",
       };
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
